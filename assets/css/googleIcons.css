@@ -1,0 +1,28 @@
+ul, li {
+    list-style: none;
+    padding-left: 0;
+}
+ul.twoColList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+
+}
+ul.twoColList li {
+    display: flex;
+    flex: 45%;
+    align-items: center;
+}
+ul.twoColList li span {
+    align-items: center;
+    padding: 1rem;
+}
+
+span.material-symbols-outlined{
+    background-color: #4acaa8;
+    color: #ffffff;
+    border-radius: 50%;
+    padding: .5rem;
+    font-size: 2rem;
+}
